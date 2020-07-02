@@ -18,14 +18,18 @@
 }
 
 @media (max-width: 1240px) {
-  .destination {
+  .card {
     width: 50%;
-    margin-bottom: 50px;
+     margin: 1%;
   }
 }
 
 @media (max-width: 670px) {
   footer {
     flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin: 1%;
   }
 }
