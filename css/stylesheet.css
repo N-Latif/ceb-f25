@@ -59,6 +59,7 @@
 
 body {
     line-height: 1;
+    font-family: "Corbel";
 }
 
 * {
@@ -109,34 +110,37 @@ header nav{
 }
 header nav ul li{
 	float: left;
-    margin-left: 60px;
+    margin-left: 0;
     list-style: none;
 }
 
 header nav ul li a{
-	text-decoration: none;
+    color: #fef8f1;
+    text-decoration: none;
 	font-family: 'LatoBold', arial;
 	font-weight: bold;
 	font-size: 16px;
-	color: #fef8f1;
     letter-spacing: 1px;
     display: block;
     line-height: 80px;
-    transition: all 0.5s;
     text-shadow: 0.5px 0.866px 2px rgba(0,0,0,0.1);
     position: relative;
     letter-spacing: 0.2px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
-header nav ul li a:hover::after, header nav ul li a:focus::after{
-    color: #ffffff;
-    transition: all 0.5s;
+header nav ul li a:hover{
+    animation: glowing 1300ms infinite;
+    color: #111111;
 }
-body {
-    font-family: "Corbel";
-}
+
+@keyframes glowing {
+    0% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
+    50% { background-color: #e9ecec; box-shadow: 0 0 15px #e9ecec; }
+    100% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
+    }
+
 
 element.style {
 }
