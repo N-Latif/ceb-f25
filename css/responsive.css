@@ -1,21 +1,28 @@
-@media (max-width: 1240px)
-.top-wrapper h1 {
-    font-size: 32px;
+@media (max-width: 1240px) .top-wrapper h1 {
+  font-size: 32px;
 }
 
-@media (max-width: 1240px)
-.top-wrapper h2 {
-    font-size: 32px;
+@media (max-width: 1240px) .top-wrapper h2 {
+  font-size: 32px;
 }
 
-@media (max-width: 1240px)
-.content-wrapper {
-    height: 1080px;
-    text-align: center;
+@media (max-width: 1240px) .content-wrapper {
+  height: 1080px;
+  text-align: center;
 }
 
-@media (max-width: 1240px)
-.destination {
-    width: 50%;
-    margin-bottom: 50px;
+@media (max-width: 1240px) .destination {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+/* footer */
+@media (max-width: 670px) {
+  body {
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer .child {
+  }
 }
