@@ -57,14 +57,11 @@
 }
 
 body {
-<<<<<<< HEAD
   line-height: 1;
 
-
-=======
-    line-height: 1;
-    font-family: "Corbel";
->>>>>>> 6c6c8efaa6ad9e70172cb90ed4bd30098e4d32d1
+  /* min-height: 100%;
+  position: relative; */
+  /* padding-bottom:[footer-height]  */
 }
 
 * {
@@ -150,7 +147,6 @@ video {
 }
 
 /*  Header  */
-<<<<<<< HEAD
 header {
   width: 100%;
   height: 80px;
@@ -201,61 +197,7 @@ header nav ul li a:focus::after {
 }
 body {
   font-family: "Corbel";
-=======
-header{
-	width: 100%;
-	height: 80px;
-	background: #111111;
-	color: rgba(255, 255, 255, 0.5);
-	position: fixed;
-    z-index: 9999;
-    justify-content: space-between;
 }
-
-header .h_logo{
-	float: left;
-	margin-top: 10px;
-}
-
-header nav{
-	float: right;
-	margin-top: 0;
-	overflow: hidden;
-}
-header nav ul li{
-	float: left;
-    margin-left: 0;
-    list-style: none;
-}
-
-header nav ul li a{
-    color: #fef8f1;
-    text-decoration: none;
-	font-family: 'LatoBold', arial;
-	font-weight: bold;
-	font-size: 16px;
-    letter-spacing: 1px;
-    display: block;
-    line-height: 80px;
-    text-shadow: 0.5px 0.866px 2px rgba(0,0,0,0.1);
-    position: relative;
-    letter-spacing: 0.2px;
-    padding-left: 36px;
-    padding-right: 36px;
-}
-
-header nav ul li a:hover{
-    animation: glowing 1300ms infinite;
-    color: #111111;
-}
-
-@keyframes glowing {
-    0% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
-    50% { background-color: #e9ecec; box-shadow: 0 0 15px #e9ecec; }
-    100% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
->>>>>>> 6c6c8efaa6ad9e70172cb90ed4bd30098e4d32d1
-}
-
 
 element.style {
 }
