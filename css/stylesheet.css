@@ -139,7 +139,7 @@ header nav ul li a:hover{
     0% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
     50% { background-color: #e9ecec; box-shadow: 0 0 15px #e9ecec; }
     100% { background-color: #b2b4b4; box-shadow: 0 0 3px #b2b4b4; }
-    }
+}
 
 
 element.style {
