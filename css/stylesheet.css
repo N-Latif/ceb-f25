@@ -205,7 +205,7 @@ header nav ul li a:hover {
 
 .top-wrapper {
   padding: 180px 0 180px 140px;
-  background-image: url(Tempat-Wisata-Jogja.jpg);
+  background-image: url('/images/Tempat-Wisata-Jogja.jpg');
   background-position: center;
   background-size: cover;
   height: 620px;
@@ -215,10 +215,37 @@ header nav ul li a:hover {
   -webkit-box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);
   box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);
 }
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.button {
+  padding: 12px 40px;
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  background: linear-gradient(to right,#FFF200 , #F55A00);
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background: linear-gradient(to right,#1C9FFC,#3400F2);
 }
 
 * {
@@ -228,6 +255,10 @@ header nav ul li a:hover {
 
 div {
   display: block;
+}
+
+.head ul {
+  padding-left: 20px;
 }
 
 .container h1 {

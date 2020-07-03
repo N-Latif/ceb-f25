@@ -3,6 +3,18 @@
     font-size: 32px;
   }
 
+  .top-wrapper {
+    padding: 180px 0 180px 0px;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  .button {
+    padding: 15px 60px;
+  }
+
   .top-wrapper h2 {
     font-size: 32px;
   }
