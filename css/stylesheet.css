@@ -205,15 +205,15 @@ header nav ul li a:hover {
 
 .top-wrapper {
   padding: 180px 0 180px 140px;
-  background-image: url('/images/bg.jpg');
+  background-image: url('./images/bg.jpg');
   background-position: center;
   background-size: cover;
   height: 620px;
   color: white;
   text-align: left;
   position: relative;
-  /*-webkit-box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);
-  box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);*/
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(95, 95, 95, 0.5);
 }
 
 .container {
