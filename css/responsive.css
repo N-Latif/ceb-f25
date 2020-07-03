@@ -12,6 +12,11 @@
     text-align: center;
   }
 
+  .wrapper {
+    padding-left: 24px;
+    padding-right: 30px;
+  }
+
   .card {
     width: 50%;
      margin: 1%;
@@ -28,6 +33,22 @@
   }
 
   header {
-    height: 80px;
+    height: 60px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .main_nav {
+    display: block;
+  }
+
+  header .h_logo {
+    display: none;
+}
+  
+  header .h_logo_r {
+    display: block;
   }
 }
