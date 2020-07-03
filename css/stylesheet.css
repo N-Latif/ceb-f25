@@ -205,7 +205,7 @@ header nav ul li a:hover {
 
 .top-wrapper {
   padding: 180px 0 180px 140px;
-  background-image: url('./images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-position: center;
   background-size: cover;
   height: 620px;
