@@ -36,19 +36,50 @@
     height: 60px;
   }
 
-  nav {
-    display: none;
-  }
-
-  .main_nav {
-    display: block;
-  }
-
-  header .h_logo {
+    header .h_logo {
     display: none;
 }
   
   header .h_logo_r {
     display: block;
+  }
+}
+
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+    background: #151515;
+    position: fixed;
+    width: 100%;
+  }
+
+  /*nav{
+    
+    padding: 3px 50px;
+    
+  }*/
+
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn{
+    display: block;
+  }
+  nav ul li.items:hover{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff,
+                inset 0 0 10px #66ffff;
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
+}
+@media screen and (max-width:600px) {
+  .pe{
+    width: 100%;
   }
 }
